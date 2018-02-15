@@ -1,0 +1,27 @@
+#cabecera{
+	background: #EDF6FC;
+	border:1px solid grey;
+}
+
+#contenedor{
+	background: #F0F4F4;
+	border: 1px dotted grey;
+}
+#asside{
+	background: #6993F1;
+	border: 3px dotted black;
+	align-content: center;
+
+}
+#candidato1,#candidato2,#candidato3,#candidato4{
+	align: center;
+	border: 1px dotted black;
+}
+#bienvenido{
+	padding-left: 200px;
+}
+#desplegable{
+	padding-top: 20px;
+	font-size: 20px;
+
+}
