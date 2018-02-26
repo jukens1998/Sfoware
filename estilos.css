@@ -17,11 +17,23 @@
 	align: center;
 	border: 1px dotted black;
 }
-#bienvenido{
-	padding-left: 200px;
-}
-#desplegable{
-	padding-top: 20px;
-	font-size: 20px;
 
+#desplegable{
+	padding-top: 1vw;
+	font-size: 20px;
+}
+#piedepagina_jurado{
+	background-color:#EAE8E8;
+	border:1px solid grey;
+	margin-top: 8vw
+
+}
+#piedepagina{
+	background-color:#EAE8E8;
+	border:1px solid grey;
+	margin-top: 8vw
+
+}
+#body_jurado{
+	background-color: #E5E5E5;
 }
