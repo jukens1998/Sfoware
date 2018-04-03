@@ -1,0 +1,20 @@
+create database votaciones;
+use votaciones;
+
+CREATE TABLE Persona(	
+	Nombre varchar(100) not null,
+	Apellido varchar(100) not null,
+	Cedula varchar(100) not null,
+	Contraseña varchar(20) not null,
+	Teléfono INTEGER(15) not null,
+	Sexo varchar(100) not null,
+	Departamento varchar(100) not null,
+	Localidad varchar(100) not null,	
+	PRIMARY KEY(Cedula)
+); 
+
+CREATE TABLE Voto(
+	Id_voto INTEGER(8) not null,
+	Cedula varchar(100) not null,
+	FOREIGN KEY (Cedula) references Persona(Cedula)
+	);
