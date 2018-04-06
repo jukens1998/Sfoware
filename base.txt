@@ -26,3 +26,9 @@ CREATE TABLE candidato{
   Nombre varchar(30) not null,
  PRIMARY KEY(id_candidato)
 }
+
+
+insert into candidato(id_candidato,Nombre) values(1,"Alejandro Vargas");
+insert into candidato(id_candidato,Nombre) values(2,"Gustavo Duque");
+insert into candidato(id_candidato,Nombre) values(3,"Ivan Fajardo");
+insert into candidato(id_candidato,Nombre) values(4,"Martha Lopez");
