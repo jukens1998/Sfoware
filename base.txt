@@ -5,8 +5,8 @@ CREATE TABLE Persona(
 	Nombre varchar(100) not null,
 	Apellido varchar(100) not null,
 	Cedula varchar(100) not null,
-	Contraseña varchar(20) not null,
-	Teléfono INTEGER(15) not null,
+	ContraseÃ±a varchar(20) not null,
+	TelÃ©fono INTEGER(15) not null,
 	Sexo varchar(100) not null,
 	Departamento varchar(100) not null,
 	Localidad varchar(100) not null,	
@@ -14,7 +14,15 @@ CREATE TABLE Persona(
 ); 
 
 CREATE TABLE Voto(
-	Id_voto INTEGER(8) not null,
+	id_voto INTEGER(8) not null,
 	Cedula varchar(100) not null,
-	FOREIGN KEY (Cedula) references Persona(Cedula)
+	id_candidato varchar(100) not null,
+	FOREIGN KEY (Cedula) references Persona(Cedula),
+	FOREIGN KEY (id_candidato) references candidato(id_candidato)
 	);
+	
+CREATE TABLE candidato{
+  id_candidato int(8) not null,
+  Nombre varchar(30) not null,
+ PRIMARY KEY(id_candidato)
+}
