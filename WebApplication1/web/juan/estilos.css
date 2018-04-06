@@ -1,0 +1,72 @@
+#cabecera{
+	background: #2abb9c;
+	border:1px solid grey;
+    margin: 0.2vw 0 0 0;
+    padding: 0.8vw 0vw 0.8vw 0vw;
+    
+}
+
+#contenedor{
+	background: #F0F4F4;
+	border: 1px dotted grey;
+}
+#asside{
+	background: #d2caca;
+	align-content: center;
+
+}
+#candidato1,#candidato2,#candidato3,#candidato4{
+	align-content: center;
+	border: 1px dotted black;
+    background-color: grey;
+}
+
+#desplegable{
+	padding-top: 1vw;
+	font-size: 20px;
+}
+#piedepagina_jurado{
+	background-color:#EAE8E8;
+	border:1px solid grey;
+	margin-top: 8vw
+
+}
+#piedepagina{
+	background-color:#EAE8E8;
+	border:1px solid grey;
+	margin-top: 8vw
+
+}
+#body_jurado{
+	background-color: #E5E5E5;
+}
+#galeria{
+    margin: 1vw 0 1vw 0;
+    border: 1px dotted black;
+    background:#d2caca;
+}
+#asside, #principal{
+    border:1px dotted black;
+    padding: 2vw 1vw 0vw 1vw;
+}
+#main{
+    margin: 1vw 0 1vw 0;
+    background:#d2caca;
+
+}
+#candidato1seccion,#candidato2seccion,#candidato3seccion,#candidato4seccion{
+	align-content: center;
+	border: 1px dotted black;
+    background-color: grey;
+}
+#separador{
+    background-color: black;
+}
+#contenedorgaleria{
+    background:#d2caca;
+}
+
+#bienvenido{
+    font-size:3.2vw;
+    font-family:
+}
