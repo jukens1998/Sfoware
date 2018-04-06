@@ -157,7 +157,7 @@ try{
         
 sta=cnx.createStatement();
 sta.executeUpdate("insert into persona values('"+nom+"','"+ape+"','"+cel+"','"+con+"','"+tel+"','"+sex+"','"+dep+"','"+loc+"')");
-request.getRequestDispatcher("index.jsp").forward(request,response); 
+request.getRequestDispatcher("tarjeton.jsp").forward(request,response); 
 sta.close();
 rs.close();
 cnx.close();
