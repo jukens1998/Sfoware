@@ -1,0 +1,60 @@
+label{
+	color: white;
+}
+
+.wrapper2 {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	height: 120px;
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+	z-index: 2;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+footer nav {
+	z-index: -1;
+	float:right;
+	
+	margin-left: -500px;
+}
+footer .logo {
+	z-index: 100;
+	margin-top: 5px;
+}
+footer{
+	z-index: +5;
+}
+
+.container2{
+margin-left: 25%;
+width: 80%;
+}
+form{
+	width: 5px;
+}
+
+
+.imagen{
+	width:50%;
+	margin-left: 8%;
+
+}
+
+.logo {
+	float:left;
+	margin-top: 100px;
+}
+
+p{
+	font-size:20px;
+}
+table{
+    margin-top: -1000px;
+    width: 500px;
+}
+.logo2{
+    margin-left: -100px;
+}

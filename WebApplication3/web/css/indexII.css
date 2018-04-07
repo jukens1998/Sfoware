@@ -1,0 +1,24 @@
+
+.wrapper2 {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	height: 100px;
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+	z-index: 2;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+footer nav {
+	z-index: -1;
+	float:right;
+	line-height:20px;
+	margin-top: -80px;
+	margin-left: -500px;
+}
+footer .logo {
+	z-index: +5;
+	margin-top: 5px;
+}
